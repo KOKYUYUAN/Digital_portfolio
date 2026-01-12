@@ -6,7 +6,7 @@ hero:
   text: Engineering & AI Portfolio
   tagline: Machine Learning · IoT · Embedded Systems · Cybersecurity
   image:
-    src: /Profile.png
+    src: /Digital_portfolio/Profile.png
     alt: Profile
   actions:
     - theme: brand
