@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: 'Kok Yu Yuan | Portfolio',
     description: 'Engineering & AI Portfolio',
+    base: '/Digital_portfolio/',
 
     themeConfig: {
         logo: '/Profile.png',
