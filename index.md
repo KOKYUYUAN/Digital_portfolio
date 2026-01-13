@@ -2,10 +2,6 @@
 layout: home
 ---
 
-<script setup>
-import { withBase } from 'vitepress'
-</script>
-
 <style>
 .hero-split {
   display: flex;
@@ -15,6 +11,7 @@ import { withBase } from 'vitepress'
   margin-top: 60px;
 }
 
+/* LEFT SIDE */
 .hero-text {
   max-width: 520px;
 }
@@ -32,8 +29,6 @@ import { withBase } from 'vitepress'
 }
 
 .hero-text p {
-  font-size: 0.95rem;
-  line-height: 1.6;
   opacity: 0.85;
   margin-bottom: 20px;
 }
@@ -43,21 +38,23 @@ import { withBase } from 'vitepress'
   margin-right: 12px;
   padding: 10px 18px;
   border-radius: 8px;
-  text-decoration: none;
   border: 1px solid #ccc;
+  text-decoration: none;
 }
 
 .hero-buttons a:hover {
   background: #f5f5f5;
 }
 
-/* style markdown image */
-.hero-image img {
+/* RIGHT SIDE IMAGE (NO IMPORT) */
+.hero-photo {
   width: 240px;
   height: 240px;
-  object-fit: cover;
-  border-radius: 12px;
   border: 3px solid #ddd;
+  border-radius: 12px;
+  background-image: url('/Digital_portfolio/Profile.png');
+  background-size: cover;
+  background-position: center;
 }
 </style>
 
@@ -72,14 +69,12 @@ import { withBase } from 'vitepress'
 Machine Learning · IoT · Embedded Systems · Cybersecurity
 
 <div class="hero-buttons">
-  <a :href="withBase('/projects')">View Projects</a>
-  <a :href="withBase('/resume_Kok_Yu_Yuan.pdf')" target="_blank">Download CV</a>
+  <a href="/Digital_portfolio/projects">View Projects</a>
+  <a href="/Digital_portfolio/resume_Kok_Yu_Yuan.pdf" target="_blank">Download CV</a>
 </div>
 
 </div>
 
-<div class="hero-image">
-  <img :src="withBase('/Profile.png')" alt="Kok Yu Yuan Profile" />
-</div>
+<div class="hero-photo"></div>
 
 </div>
