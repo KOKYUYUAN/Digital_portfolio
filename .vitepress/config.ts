@@ -6,7 +6,7 @@ export default defineConfig({
     base: '/Digital_portfolio/',
 
     themeConfig: {
-        logo: '/Digital_portfolio/Profile.png',
+        logo: '/Profile.png',
 
         // Search functionality
         search: {
