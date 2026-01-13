@@ -6,7 +6,7 @@ hero:
   text: Engineering & AI Portfolio
   tagline: Machine Learning · IoT · Embedded Systems · Cybersecurity
   image:
-    src: /Profile.png
+    src: /Digital_portfolio/Profile.png
     alt: Profile
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: /projects
     - theme: alt
       text: Download CV
-      link: /resume_Kok Yu Yuan.pdf
+      link: /Digital_portfolio/resume_Kok_Yu_Yuan.pdf
 ---
 
 ## 🚀 What I Do
