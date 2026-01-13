@@ -76,13 +76,13 @@ The script `night_enhancement.py` demonstrates this pipeline. Below are the resu
 ### Output after enhancement
 
 #### 1. Original Low-Light Input
-![original image](/dip/original_images.png)
+![original image](./original_images.png)
 *Figure 1: The raw input image captured in low-light conditions. Note the limited visibility in the shadowed areas and the presence of sensor noise in the dark sky.*
 
 #### 2. Histogram Analysis
-![RGB Histogram](/dip/RGB_Histogram_asm.png)
+![RGB Histogram](./RGB_Histogram_asm.png)
 *Figure 2: Histogram Analysis. This plot visualizes the intensity distribution. The global equalization tends to stretch noise, whereas our CLAHE approach maintains a more natural distribution while improving local contrast.*
 
 #### 3. Final Enhanced Result
-![Enhanced image](/dip/Enhancement_output.png)
+![Enhanced image](./Enhancement_output.png)
 *Figure 3: The final output after the full processing pipeline. The sky noise is significantly reduced via the median filter, while the Unsharp Masking has restored clarity to the building edges and trees, resulting in a balanced and visually pleasing night scene.*    

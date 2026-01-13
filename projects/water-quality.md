@@ -21,4 +21,4 @@ The system utilizes a network of sensors connected to a microcontroller, which t
 - Enables continuous assurance of water quality.
 - Low-cost, scalable solution for home use.
 
-## jibai sam
+

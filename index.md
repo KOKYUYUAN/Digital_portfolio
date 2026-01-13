@@ -2,6 +2,10 @@
 layout: home
 ---
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 <style>
 .hero-split {
   display: flex;
@@ -68,16 +72,14 @@ layout: home
 Machine Learning · IoT · Embedded Systems · Cybersecurity
 
 <div class="hero-buttons">
-  <a href="/projects">View Projects</a>
-  <a href="/resume_Kok_Yu_Yuan.pdf" target="_blank">Download CV</a>
+  <a :href="withBase('/projects')">View Projects</a>
+  <a :href="withBase('/resume_Kok_Yu_Yuan.pdf')" target="_blank">Download CV</a>
 </div>
 
 </div>
 
 <div class="hero-image">
-
-![Kok Yu Yuan Profile](/Profile.png)
-
+  <img :src="withBase('/Profile.png')" alt="Kok Yu Yuan Profile" />
 </div>
 
 </div>
