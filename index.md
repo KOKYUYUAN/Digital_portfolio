@@ -47,6 +47,7 @@ layout: home
   background: #f5f5f5;
 }
 
+/* style markdown image */
 .hero-image img {
   width: 240px;
   height: 240px;
@@ -60,12 +61,11 @@ layout: home
 
 <div class="hero-text">
 
-<h1>Kok Yu Yuan</h1>
-<h2>Engineering & AI Portfolio</h2>
+# Kok Yu Yuan
 
-<p>
+## Engineering & AI Portfolio
+
 Machine Learning · IoT · Embedded Systems · Cybersecurity
-</p>
 
 <div class="hero-buttons">
   <a href="/projects">View Projects</a>
@@ -75,7 +75,9 @@ Machine Learning · IoT · Embedded Systems · Cybersecurity
 </div>
 
 <div class="hero-image">
-  <img src="/Profile.png" alt="Kok Yu Yuan Profile" />
+
+![Kok Yu Yuan Profile](/Profile.png)
+
 </div>
 
 </div>
