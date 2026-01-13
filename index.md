@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <style>
 /* GENERAL SECTION STYLING */
 section {
@@ -35,7 +39,7 @@ section p {
 }
 
 /* PROJECT CARDS */
-#projects .project-card {
+.project-card {
   flex: 1;
   min-width: 250px;
   border: 1px solid #ddd;
@@ -43,20 +47,23 @@ section p {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background: #fafafa;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-#projects .project-card:hover {
+.project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-#projects h3 {
+.project-card h3 {
   font-size: 1.3rem;
   color: #0077ff;
   margin-bottom: 10px;
 }
 
-#projects p {
+.project-card p {
   font-size: 0.95rem;
   opacity: 0.85;
 }
@@ -82,13 +89,88 @@ section p {
   color: #005bbb;
 }
 
-/* RESPONSIVE */
+/* HERO SECTION SPLIT */
+.hero-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.hero-text p {
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.hero-buttons a:hover {
+  background: #f5f5f5;
+}
+
+.hero-photo {
+  width: 240px;
+  height: 240px;
+  border: 3px solid #ddd;
+  border-radius: 12px;
+  background-image: url('/Digital_portfolio/Profile.png');
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 768px) {
-  #projects .project-card {
-    min-width: 100%;
+  .hero-split {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
 </style>
+
+<div class="hero-split">
+
+<div class="hero-text">
+
+# Kok Yu Yuan
+
+## Engineering & AI Portfolio
+
+Machine Learning · IoT · Embedded Systems · Cybersecurity
+
+<div class="hero-buttons">
+  <a href="/Digital_portfolio/projects">View Projects</a>
+  <a href="/Digital_portfolio/resume_Kok_Yu_Yuan.pdf" target="_blank">Download CV</a>
+</div>
+
+</div>
+
+<div class="hero-photo"></div>
+
+</div>
+
 
 <!-- ABOUT ME SECTION -->
 <section id="about">
@@ -126,17 +208,17 @@ section p {
   <h2>Selected Projects</h2>
   <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     
-    <a href="/Digital_portfolio/projects/night_landscape_enhancement.html" class="project-card" style="text-decoration: none; color: inherit; display: block;">
+    <a href="/Digital_portfolio/projects/night_landscape_enhancement.html" class="project-card">
       <h3>Smart Night Image Enhancement</h3>
       <p>Digital image processing pipeline to improve visibility in low-light night scenes using denoising, CLAHE, and unsharp masking.</p>
     </a>
 
-    <a href="/Digital_portfolio/projects/tourism.html" class="project-card" style="text-decoration: none; color: inherit; display: block;">
+    <a href="/Digital_portfolio/projects/tourism.html" class="project-card">
       <h3>Tourism Anomaly Detection</h3>
       <p>Comparative study of unsupervised machine learning models (Isolation Forest, DBSCAN) to detect anomalies in tourism arrival data.</p>
     </a>
 
-    <a href="/Digital_portfolio/projects/water-quality.html" class="project-card" style="text-decoration: none; color: inherit; display: block;">
+    <a href="/Digital_portfolio/projects/water-quality.html" class="project-card">
       <h3>Water Quality Monitoring</h3>
       <p>IoT-based system for real-time monitoring of water parameters (pH, turbidity) with a cloud-based dashboard.</p>
     </a>
