@@ -14,7 +14,7 @@ hero:
       link: /projects
     - theme: alt
       text: Download CV
-      link: /Digital_portfolio/resume_Kok_Yu_Yuan.pdf
+      link: /resume_Kok%20Yu%20Yuan.pdf
 ---
 
 ## 🚀 What I Do
