@@ -32,6 +32,12 @@ export default defineConfig({
                 ]
             },
             {
+                text: 'Final Year Project',
+                items: [
+                    { text: 'Songket Motif Classification', link: '/Final_year_project' }
+                ]
+            },
+            {
                 text: 'Projects',
                 items: [
                     { text: 'Tourism Anomaly Detection', link: '/projects/tourism' },
