@@ -86,3 +86,11 @@ The script `night_enhancement.py` demonstrates this pipeline. Below are the resu
 #### 3. Final Enhanced Result
 ![Enhanced image](./Enhancement_output.png)
 *Figure 3: The final output after the full processing pipeline. The sky noise is significantly reduced via the median filter, while the Unsharp Masking has restored clarity to the building edges and trees, resulting in a balanced and visually pleasing night scene.*    
+
+#### 4. More examples for night enhancement
+![Enhanced image](./night_enhance1.png)
+*** 
+![Enhanced image](./night_enhance2.png)
+***
+![Enhanced image](./night_enhance3.png)
+
