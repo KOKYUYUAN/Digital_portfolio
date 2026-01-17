@@ -1,3 +1,9 @@
+# Digital Image Processing Class
+![class](./class.png)
+This is the class photo of the Digital Image Processing class for BERR 25/26 which recorded how i learn DIP within our lecture PROFESOR MADYA DR. NURULFAJAR BIN ABD. MANAP. 
+
+***
+
 # Reflection for DIP Class
 
 ## Section 2: Introduction 

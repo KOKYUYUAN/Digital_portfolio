@@ -1,6 +1,9 @@
 # Smart Image Processing: Night Landscape Enhancement
 
 ## Project Overview
+![Group Photo](./asm.png)
+Project under guidance of Prof. Nurulfajar bin Abd. Manap and teammates with Brian Ooi Teik Sheng, Ang Wei Ding and Yeo Kim Fu
+***
 **Project Name**: Smart Image Processing  
 **Contribution**: Night Landscape Enhancement Module
 
