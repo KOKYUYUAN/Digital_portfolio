@@ -100,6 +100,18 @@ Analyzed the trade-offs between image quality and storage size. We studied the t
 
 ## Section 12: Miscellaneous
 ![Miscellaneous](./section11.png)    
-Covered specialized and advanced topics suitable for specific engineering challenges. Discussion points included morphological operations for shape analysis and object recognition strategies. We also briefly touched upon watermarking for copyright protection and the ethical considerations of deep-fake technology in image processing.
+The feeling and reflection of the class is that it is a very good class to learn digital image processing. The class is very well structured and the professor is very knowledgeable. The class is also very interactive and the professor is very good at explaining the concepts. I express the feeling and understand in this padlet.
 
+***
+# Personal Reflection: Learning Digital Image Processing from a Beginner’s Perspective
+## end of the semester reflection
 
+At the beginning of the semester, I had very little knowledge of Digital Image Processing. To me, an image was simply a collection of pixels, and I did not fully understand how computers interpret or manipulate images. Concepts such as noise, filtering, color spaces, and image enhancement were unfamiliar and initially confusing. I found it challenging to connect mathematical formulas and theoretical explanations to actual image results.
+
+As the semester progressed, I gradually began to understand the fundamentals of digital images, including pixel intensity, grayscale representation, and basic image operations. Through lectures, demonstrations, and guided exercises, I learned how noise affects image quality and why preprocessing steps such as filtering are necessary. Applying techniques like median filtering and image smoothing helped me visually see the difference between raw and processed images, which significantly improved my understanding.
+
+Interaction with classmates during discussions and assignments played an important role in my learning process. By sharing ideas and asking questions, I was able to clarify my misunderstandings and learn alternative approaches to solving image processing problems. Group discussions helped me realize that there is often more than one correct method to enhance an image, and the choice of technique depends on the image condition and the desired outcome.
+
+One of the most meaningful learning experiences was working on the night landscape image enhancement project. Initially, I struggled to improve image clarity without distorting colors. However, through feedback from peers and applying knowledge learned in class, I learned how to use appropriate preprocessing techniques and color space transformations to enhance brightness while preserving natural color appearance. This project marked a turning point where theoretical knowledge became practical understanding.
+
+By the end of the semester, I transformed from a beginner with no background in Digital Image Processing into a learner who can confidently apply basic image processing techniques. More importantly, I developed problem-solving skills, critical thinking, and the ability to justify technical decisions. This learning journey has motivated me to further explore image processing and computer vision in future studies.
